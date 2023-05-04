@@ -1,0 +1,29 @@
+header{
+    height: 11vh;
+    min-width: 11vw;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.2rem;
+}
+
+header > div, header > ul {
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0.2%;
+    gap: 0.2rem;
+    
+}
+
+header img{
+    filter: invert(30%);
+    height: 38px;
+    width: 38px;
+}
+
+header a:hover{
+    color: #977075;
+}
